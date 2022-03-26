@@ -24,8 +24,13 @@
 </head>
 
 <body>
-    <div class="page row" style="justify-content: space-around;align-items: center;">
-        <div id="header" style="position: absolute;top: 0;"></div>
+    <div class="row" style="margin-top: 0.2rem;justify-content: end;width: 6.4rem;">
+        <a class="menu-item" target="_blank" href="https://github.com/nightmare-space/speed_share">开源地址</a>
+        <div style="width: 0.4rem;"></div>
+    </div>
+    <div class="page row" style="justify-content: space-around;align-items: cesnter;">
+        <!-- <div id="header" style="position: absolute;top: 0;"></div>
+         -->
         <img src="./images/home.png" style="width: 2rem;" alt="">
         <div class="column" style="margin-left: 0.2rem;margin-top: 0rem;justify-content: flex-start;">
             <span class="primary title">
@@ -68,7 +73,7 @@
             <!-- <div class="spaceing"></div> -->
             <div class="card">
                 <div class="card-title">免费&开源&无广告</div>
-                <div class="card-sub">这是一个纯用爱发电的项目，好用不收钱，代码还开源</div>
+                <div class="card-sub">这是一个纯用爱发电的项目，好用不收钱，代码还开源~</div>
             </div>
         </div>
     </div>
@@ -82,34 +87,38 @@
         </div>
     </div> -->
 
-    <div class="row" style="justify-content: center;">
+    <div class="column" style="justify-content: center;">
+        <div style="height:0.4rem"></div>
+        <div class="row" style="justify-content: center;">
+            <div style="font-size: 0.16rem;font-weight: bold;letter-spacing: 0.02rem;color: #1C1B1F;">下载使用</div>
+        </div>
         <div class="row">
-            <div style="font-size: 0.16rem;font-weight: bold;letter-spacing: 0.02rem;">下载使用</div>
-            <img src="images/app_icon_256.png" style="width: 0.2rem;" alt="">
+            <div class="spaceing"></div>
+            <div class="column" style="margin-top: 0.1rem;">
+                <div class="primary">
+                    桌面端
+                </div>
+                <div style="height: 0.06rem;"></div>
+                <div class="row" style="height: 0.2rem;justify-content: start;">
+                    <button class="downBtn margin-right">Windows</button>
+                    <button onclick="onClick('http://nightmare.fun/YanTool/resources/ADBTool/')"
+                        class="downBtn margin-right">macOS</button>
+                    <button class="downBtn">Linux</button>
+                </div>
+                <div style="height: 0.06rem;"></div>
+                <div class="primary">
+                    移动端
+                </div>
+                <div style="height: 0.08rem;"></div>
+                <div style="height: 0.2rem;display: flex;flex-wrap: wrap;">
+                    <button onclick="onClick('http://nightmare.fun/YanTool/resources/ADBTool/')"
+                        class="downBtn margin-right">
+                        Android
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="column" style="margin-top: 0.2rem;margin-left: 0.6rem">
-            <div class="primary">
-                桌面端
-            </div>
-            <div style="height: 0.06rem;"></div>
-            <div class="row" style="height: 0.2rem;justify-content: start;">
-                <button class="downBtn margin-right">Windows</button>
-                <button onclick="onClick('http://nightmare.fun/YanTool/resources/ADBTool/')"
-                    class="downBtn margin-right">macOS</button>
-                <button class="downBtn">Linux</button>
-            </div>
-            <div style="height: 0.06rem;"></div>
-            <div class="primary">
-                移动端
-            </div>
-            <div style="height: 0.08rem;"></div>
-            <div style="height: 0.2rem;display: flex;flex-wrap: wrap;">
-                <button onclick="onClick('http://nightmare.fun/YanTool/resources/ADBTool/')"
-                    class="downBtn margin-right">
-                    Android
-                </button>
-            </div>
-        </div>
+        <div style="height: 0.4rem;"></div>
     </div>
     <div style="height: 0.2rem;">
         <a href="" name="download" style="visibility: hidden;"></a>
